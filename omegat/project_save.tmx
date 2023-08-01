@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.1_0_c3206253" segtype="sentence" srclang="en"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en">
+        <seg>Earth Movement</seg>
+      </tuv>
+      <tuv lang="en-QA">
+        <seg>Earth Movement</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sun</seg>
+      </tuv>
+      <tuv lang="en-QA">
+        <seg>Sun</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Earth’s axis</seg>
+      </tuv>
+      <tuv lang="en-QA">
+        <seg>Earth’s axis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Earth</seg>
+      </tuv>
+      <tuv lang="en-QA">
+        <seg>Earth</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This diagram represents Earth as it rotates on its axis and orbits around the Sun (not to scale).</seg>
+      </tuv>
+      <tuv lang="en-QA">
+        <seg>This diagram represents Earth as it rotates on its axis and orbits around the Sun (not to scale).</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

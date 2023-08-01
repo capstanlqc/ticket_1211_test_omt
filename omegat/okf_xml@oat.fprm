@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<its:rules version="1.0" 
+  xmlns:its="http://www.w3.org/2005/11/its"
+  xmlns:itsx="http://www.w3.org/2008/12/its-extensions" 
+  xmlns:oat="http://www.imsglobal.org/xsd/imsqti_v2p2" 
+  xmlns:okp="okapi-framework:xmlfilter-options"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  >
+  <okp:options escapeGT="yes" escapeQuotes="no" lineBreakAsCode="no" extractIfOnlyCodes="no" />
+  <!-- See ITS specification at: http://www.w3.org/TR/its/ -->
+
+  <its:translateRule selector="//oat:key" translate="no"/>
+  <its:translateRule selector="//oat:text" translate="yes" itsx:idValue="parent::oat:label/@key" itsx:whiteSpaces="preserve" />
+  <its:withinTextRule selector="//oat:sub|//oat:sup|//oat:img|//oat:b|//oat:i|//oat:u|//oat:span|//oat:em|//oat:strong" withinText="yes"/>
+ 
+  <!-- only for xpath 2.0 - not ITS compatible -->
+  <!-- <its:translateRule selector="//oat:label[@translate='no']/oat:text[matches(text(), '[^\s]*\.(svg|jpg|png)')]" translate="no"/> -->
+  <!-- for xpath 1.0 - ITS compatible but not robust -->  
+
+  <!-- <its:translateRule selector="//oat:text[contains(text(), '.svg')][not(contains(text(), ' '))]" translate="no"/>  -->
+
+  <!-- the first condition is equivalent to ends-with(), which is XPath 2.0 only -->
+  <!-- https://stackoverflow.com/a/26217115/2095577 -->
+  <its:translateRule selector="//oat:label/oat:text['.svg' = substring(., string-length(.) - string-length('.svg') +1)][not(contains(text(), ' '))]" translate="no"/>
+  <its:translateRule selector="//oat:label/oat:text['.png' = substring(., string-length(.) - string-length('.png') +1)][not(contains(text(), ' '))]" translate="no"/>
+  <its:translateRule selector="//oat:label/oat:text['.jpg' = substring(., string-length(.) - string-length('.jpg') +1)][not(contains(text(), ' '))]" translate="no"/>
+
+  <!-- if image filenames were labeled, we could se this -->
+  <!-- 
+  <its:translateRule selector="//oat:label[@translate='no']/oat:text" translate="no"/>
+  <its:translateRule selector="//oat:label[@type='filename']/oat:text" translate="no"/> 
+  -->
+  
+  <!-- do not expose IDs in LDW: moved to a codefinder rule below, as it seems the matches method is not available in xpath 1.0 -->  
+  <!-- <its:translateRule selector="//oat:label/oat:text[matches(text(), '^P[M\d]+$')]" translate="no"/> -->
+  <!-- do not expose IDs in LDW: alternatively check for equality of item[@id] and content of label/text -->
+  <!-- <its:translateRule selector="//oat:label/oat:text[text() == '../../@id']" translate="no"/> -->
+  
+  <okp:codeFinder useCodeFinder="yes">#v1
+    count.i=7
+    rule0=\{\{[^}]+\}\}
+    rule1=&lt;/?strong&gt;
+    rule2=&lt;(span class="[^"]+"&gt;&lt;/span)&gt;
+    rule3=&lt;/?span[^>]*&gt;
+    rule4=&lt;(i class="[^"]+"&gt;&lt;/i)&gt;
+    rule5=&lt;(a class="[^"]+"|/a)&gt;
+    rule6=^P[M\d]+$
+  </okp:codeFinder>
+
+<!-- cdata subfilter ??? -->
+  
+</its:rules>

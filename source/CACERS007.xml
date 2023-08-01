@@ -1,0 +1,21 @@
+<file xmlns:its="http://www.w3.org/2005/11/its" xmlns="http://www.imsglobal.org/xsd/imsqti_v2p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:qh5="http://www.imsglobal.org/xsd/imsqtiv2p2_html5_v1p0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <sharedstimuli>
+        <sharedstimulus id="assets/646409a05f8903.44126507/passage NEW.xml">
+            <label key="646409a05f8903.44126507_91ab7918256c3413198b43e0b2e85443_1">
+                <text>Earth Movement</text>
+            </label>
+            <label key="646409a05f8903.44126507_ef6572e4cd58bb39a3f4e82fc64fe9f0_2">
+                <text>Sun</text>
+            </label>
+            <label key="646409a05f8903.44126507_a76631b1fda373017969461bbed39ba9_3">
+                <text>Earth’s axis</text>
+            </label>
+            <label key="646409a05f8903.44126507_5cdd21c97f86686cc505e02fd32a7523_4">
+                <text>Earth</text>
+            </label>
+            <label key="646409a05f8903.44126507_423ed53031547bf4978a9c9c9ef39bd5_5">
+                <text>This diagram represents Earth as it rotates on its axis and orbits around the Sun (not to scale).</text>
+            </label>
+        </sharedstimulus>
+    </sharedstimuli>
+</file>
