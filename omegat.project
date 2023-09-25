@@ -20,7 +20,7 @@
     <glossary_file>__DEFAULT__</glossary_file>
     <dictionary_dir>__DEFAULT__</dictionary_dir>
     <source_lang>en</source_lang>
-    <target_lang>en-QA</target_lang>
+    <target_lang>es</target_lang>
     <source_tok>org.omegat.tokenizer.LuceneEnglishTokenizer</source_tok>
     <target_tok>org.omegat.tokenizer.LuceneEnglishTokenizer</target_tok>
     <sentence_seg>true</sentence_seg>
