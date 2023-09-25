@@ -6,10 +6,42 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en">
+        <seg>Earth</seg>
+      </tuv>
+      <tuv lang="es" changeid="souto" changedate="20230925T095551Z" creationid="souto" creationdate="20230925T095551Z">
+        <seg>Tierra</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Earth Movement</seg>
       </tuv>
       <tuv lang="es" changeid="souto" changedate="20230925T095543Z" creationid="souto" creationdate="20230925T095543Z">
         <seg>Movimiento de la tierra</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Earth’s axis</seg>
+      </tuv>
+      <tuv lang="es" changeid="souto" changedate="20230925T095550Z" creationid="souto" creationdate="20230925T095550Z">
+        <seg>Eje de la Tierra</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sun</seg>
+      </tuv>
+      <tuv lang="es" changeid="souto" changedate="20230925T095546Z" creationid="souto" creationdate="20230925T095546Z">
+        <seg>Sol</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This diagram represents Earth as it rotates on its axis and orbits around the Sun (not to scale).</seg>
+      </tuv>
+      <tuv lang="es" changeid="souto" changedate="20230925T095552Z" creationid="souto" creationdate="20230925T095552Z">
+        <seg>Este diagrama representa a la Tierra a medida que gira sobre su eje y orbita alrededor del Sol (no a escala).</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
