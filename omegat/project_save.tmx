@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.7.1_0_c3206253" segtype="sentence" srclang="en"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="6.1.0_0_047faf572" segtype="sentence" srclang="en"/>
   <body>
 <!-- Default translations -->
     <tu>
       <tuv lang="en">
-        <seg>Earth Movement</seg>
+        <seg>Earth</seg>
       </tuv>
-      <tuv lang="en-QA">
-        <seg>Earth Movement</seg>
+      <tuv lang="es" changeid="souto" changedate="20230925T095022Z" creationid="souto" creationdate="20230925T095022Z">
+        <seg>Tierra</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Sun</seg>
+        <seg>Earth Movement</seg>
       </tuv>
-      <tuv lang="en-QA">
-        <seg>Sun</seg>
+      <tuv lang="es" changeid="souto" changedate="20230925T095012Z" creationid="souto" creationdate="20230925T095012Z">
+        <seg>Movimiento de la tierra</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Earth’s axis</seg>
       </tuv>
-      <tuv lang="en-QA">
-        <seg>Earth’s axis</seg>
+      <tuv lang="es" changeid="souto" changedate="20230925T095022Z" creationid="souto" creationdate="20230925T095022Z">
+        <seg>Eje de la Tierra</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
-        <seg>Earth</seg>
+        <seg>Sun</seg>
       </tuv>
-      <tuv lang="en-QA">
-        <seg>Earth</seg>
+      <tuv lang="es" changeid="souto" changedate="20230925T095017Z" creationid="souto" creationdate="20230925T095017Z">
+        <seg>Sol</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>This diagram represents Earth as it rotates on its axis and orbits around the Sun (not to scale).</seg>
       </tuv>
-      <tuv lang="en-QA">
-        <seg>This diagram represents Earth as it rotates on its axis and orbits around the Sun (not to scale).</seg>
+      <tuv lang="es" changeid="souto" changedate="20230925T095026Z" creationid="souto" creationdate="20230925T095026Z">
+        <seg>Este diagrama representa a la Tierra a medida que gira sobre su eje y orbita alrededor del Sol (no a escala).</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
